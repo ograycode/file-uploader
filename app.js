@@ -7,6 +7,7 @@ var express = require('express');
 var routes = require('./routes');
 var upload = require('./routes/upload');
 var http = require('http');
+var fs = require('fs');
 var path = require('path');
 
 var app = express();
